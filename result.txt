@@ -1,0 +1,226 @@
+Sending request to load balancer with no of connection: 100 request/connection: 2
+httperf --timeout=120 --client=0/1 --server=ANS-LATENCY-BASED-SCALING-LB-1327978742.us-east-1.elb.amazonaws.com --port=80 --uri=/gen_rand_no.php --rate=150 --send-buffer=4096 --recv-buffer=16384 --num-conns=100 --num-calls=2
+Maximum connect burst length: 1
+
+Total: connections 100 requests 200 replies 200 test-duration 32.712 s
+
+Connection rate: 3.1 conn/s (327.1 ms/conn, <=100 concurrent connections)
+Connection time [ms]: min 24050.3 avg 28917.6 max 32411.3 median 28284.5 stddev 1992.0
+Connection time [ms]: connect 50.5
+Connection length [replies/conn]: 2.000
+
+Request rate: 6.1 req/s (163.6 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 5.3 max 18.8 stddev 8.0 (6 samples)
+Reply time [ms]: response 151.3 transfer 14282.2
+Reply size [B]: header 206.0 content 1448357.0 footer 2.0 (total 1448565.0)
+Reply status: 1xx=0 2xx=200 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 1.32 system 31.40 (user 4.0% system 96.0% total 100.0%)
+Net I/O: 8649.8 KB/s (70.9*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+300
+Sending request to load balancer with no of connection: 300 request/connection: 2
+httperf --timeout=120 --client=0/1 --server=ANS-LATENCY-BASED-SCALING-LB-1327978742.us-east-1.elb.amazonaws.com --port=80 --uri=/gen_rand_no.php --rate=150 --send-buffer=4096 --recv-buffer=16384 --num-conns=300 --num-calls=2
+Maximum connect burst length: 1
+
+Total: connections 300 requests 600 replies 600 test-duration 86.518 s
+
+Connection rate: 3.5 conn/s (288.4 ms/conn, <=300 concurrent connections)
+Connection time [ms]: min 51609.1 avg 78214.5 max 85510.3 median 80242.5 stddev 6441.8
+Connection time [ms]: connect 177.0
+Connection length [replies/conn]: 2.000
+
+Request rate: 6.9 req/s (144.2 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 6.4 max 22.4 stddev 6.3 (17 samples)
+Reply time [ms]: response 483.4 transfer 38535.4
+Reply size [B]: header 206.0 content 1448365.0 footer 2.0 (total 1448573.0)
+Reply status: 1xx=0 2xx=600 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 1.18 system 84.49 (user 1.4% system 97.7% total 99.0%)
+Net I/O: 9811.2 KB/s (80.4*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+500
+Sending request to load balancer with no of connection: 500 request/connection: 2
+httperf --timeout=120 --client=0/1 --server=ANS-LATENCY-BASED-SCALING-LB-1327978742.us-east-1.elb.amazonaws.com --port=80 --uri=/gen_rand_no.php --rate=150 --send-buffer=4096 --recv-buffer=16384 --num-conns=500 --num-calls=2
+Maximum connect burst length: 1
+
+Total: connections 500 requests 994 replies 988 test-duration 144.902 s
+
+Connection rate: 3.5 conn/s (289.8 ms/conn, <=500 concurrent connections)
+Connection time [ms]: min 82144.8 avg 130557.4 max 144408.1 median 0.0 stddev 11414.0
+Connection time [ms]: connect 257.9
+Connection length [replies/conn]: 2.000
+
+Request rate: 6.9 req/s (145.8 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 8.3 max 46.8 stddev 9.9 (28 samples)
+Reply time [ms]: response 532.2 transfer 64624.7
+Reply size [B]: header 206.0 content 1448363.0 footer 2.0 (total 1448571.0)
+Reply status: 1xx=0 2xx=988 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 1.22 system 143.30 (user 0.8% system 98.9% total 99.7%)
+Net I/O: 9646.3 KB/s (79.0*10^6 bps)
+
+Errors: total 6 client-timo 5 socket-timo 0 connrefused 0 connreset 1
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+700
+Sending request to load balancer with no of connection: 700 request/connection: 2
+httperf --timeout=120 --client=0/1 --server=ANS-LATENCY-BASED-SCALING-LB-1327978742.us-east-1.elb.amazonaws.com --port=80 --uri=/gen_rand_no.php --rate=150 --send-buffer=4096 --recv-buffer=16384 --num-conns=700 --num-calls=2
+Maximum connect burst length: 1
+
+Total: connections 700 requests 1207 replies 1009 test-duration 215.755 s
+
+Connection rate: 3.2 conn/s (308.2 ms/conn, <=700 concurrent connections)
+Connection time [ms]: min 96098.1 avg 151244.4 max 214808.4 median 0.0 stddev 14003.4
+Connection time [ms]: connect 207.9
+Connection length [replies/conn]: 1.990
+
+Request rate: 5.6 req/s (178.8 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 7.0 max 51.2 stddev 10.4 (43 samples)
+Reply time [ms]: response 1808.5 transfer 73700.1
+Reply size [B]: header 206.0 content 1448345.0 footer 2.0 (total 1448553.0)
+Reply status: 1xx=0 2xx=1009 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 9.28 system 206.46 (user 4.3% system 95.7% total 100.0%)
+Net I/O: 6616.2 KB/s (54.2*10^6 bps)
+
+Errors: total 198 client-timo 193 socket-timo 0 connrefused 0 connreset 5
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+900
+Sending request to load balancer with no of connection: 900 request/connection: 2
+httperf --timeout=120 --client=0/1 --server=ANS-LATENCY-BASED-SCALING-LB-1327978742.us-east-1.elb.amazonaws.com --port=80 --uri=/gen_rand_no.php --rate=150 --send-buffer=4096 --recv-buffer=16384 --num-conns=900 --num-calls=2
+Maximum connect burst length: 1
+
+Total: connections 900 requests 1352 replies 903 test-duration 178.245 s
+
+Connection rate: 5.0 conn/s (198.0 ms/conn, <=900 concurrent connections)
+Connection time [ms]: min 107703.0 avg 164514.8 max 177724.4 median 0.0 stddev 12064.0
+Connection time [ms]: connect 305.0
+Connection length [replies/conn]: 1.998
+
+Request rate: 7.6 req/s (131.8 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 6.2 max 55.2 stddev 9.9 (35 samples)
+Reply time [ms]: response 2766.4 transfer 79893.9
+Reply size [B]: header 206.0 content 1448355.0 footer 2.0 (total 1448563.0)
+Reply status: 1xx=0 2xx=903 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 1.33 system 176.87 (user 0.7% system 99.2% total 100.0%)
+Net I/O: 7167.5 KB/s (58.7*10^6 bps)
+
+Errors: total 449 client-timo 442 socket-timo 0 connrefused 0 connreset 7
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+1100
+Sending request to load balancer with no of connection: 1100 request/connection: 2
+httperf --timeout=120 --client=0/1 --server=ANS-LATENCY-BASED-SCALING-LB-1327978742.us-east-1.elb.amazonaws.com --port=80 --uri=/gen_rand_no.php --rate=150 --send-buffer=4096 --recv-buffer=16384 --num-conns=1100 --num-calls=2
+Maximum connect burst length: 1
+
+Total: connections 1021 requests 1380 replies 718 test-duration 170.146 s
+
+Connection rate: 6.0 conn/s (166.6 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 117322.4 avg 158606.3 max 169658.5 median 0.0 stddev 9593.0
+Connection time [ms]: connect 340.2
+Connection length [replies/conn]: 2.000
+
+Request rate: 8.1 req/s (123.3 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 6.3 max 76.4 stddev 13.6 (34 samples)
+Reply time [ms]: response 3535.5 transfer 76672.8
+Reply size [B]: header 206.0 content 1448369.0 footer 2.0 (total 1448577.0)
+Reply status: 1xx=0 2xx=718 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 1.42 system 168.67 (user 0.8% system 99.1% total 100.0%)
+Net I/O: 5970.7 KB/s (48.9*10^6 bps)
+
+Errors: total 741 client-timo 651 socket-timo 0 connrefused 0 connreset 11
+Errors: fd-unavail 79 addrunavail 0 ftab-full 0 other 0
+1300
+Sending request to load balancer with no of connection: 1300 request/connection: 2
+httperf --timeout=120 --client=0/1 --server=ANS-LATENCY-BASED-SCALING-LB-1327978742.us-east-1.elb.amazonaws.com --port=80 --uri=/gen_rand_no.php --rate=150 --send-buffer=4096 --recv-buffer=16384 --num-conns=1300 --num-calls=2
+Maximum connect burst length: 1
+
+Total: connections 1021 requests 1298 replies 554 test-duration 165.257 s
+
+Connection rate: 6.2 conn/s (161.9 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 118407.3 avg 154200.7 max 164996.2 median 0.0 stddev 7683.0
+Connection time [ms]: connect 258.2
+Connection length [replies/conn]: 2.000
+
+Request rate: 7.9 req/s (127.3 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 5.0 max 58.4 stddev 10.7 (33 samples)
+Reply time [ms]: response 3149.7 transfer 74806.6
+Reply size [B]: header 206.0 content 1448354.0 footer 2.0 (total 1448562.0)
+Reply status: 1xx=0 2xx=554 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 1.54 system 163.40 (user 0.9% system 98.9% total 99.8%)
+Net I/O: 4743.3 KB/s (38.9*10^6 bps)
+
+Errors: total 1023 client-timo 739 socket-timo 0 connrefused 0 connreset 5
+Errors: fd-unavail 279 addrunavail 0 ftab-full 0 other 0
+1500
+1300
+Sending request to load balancer with no of connection: 1300 request/connection: 2
+httperf --timeout=120 --client=0/1 --server=ANS-LATENCY-BASED-SCALING-LB-1327978742.us-east-1.elb.amazonaws.com --port=80 --uri=/gen_rand_no.php --rate=150 --send-buffer=4096 --recv-buffer=16384 --num-conns=1300 --num-calls=2
+Maximum connect burst length: 1
+
+Total: connections 1021 requests 1363 replies 684 test-duration 169.482 s
+
+Connection rate: 6.0 conn/s (166.0 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 117431.9 avg 158760.1 max 168739.9 median 0.0 stddev 8080.2
+Connection time [ms]: connect 302.1
+Connection length [replies/conn]: 2.000
+
+Request rate: 8.0 req/s (124.3 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 4.1 max 26.8 stddev 5.9 (33 samples)
+Reply time [ms]: response 2932.3 transfer 77363.4
+Reply size [B]: header 206.0 content 1448359.0 footer 2.0 (total 1448567.0)
+Reply status: 1xx=0 2xx=684 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 1.40 system 168.02 (user 0.8% system 99.1% total 100.0%)
+Net I/O: 5710.2 KB/s (46.8*10^6 bps)
+
+Errors: total 958 client-timo 673 socket-timo 0 connrefused 0 connreset 6
+Errors: fd-unavail 279 addrunavail 0 ftab-full 0 other 0
+1100
+Sending request to load balancer with no of connection: 1100 request/connection: 2
+httperf --timeout=120 --client=0/1 --server=ANS-LATENCY-BASED-SCALING-LB-1327978742.us-east-1.elb.amazonaws.com --port=80 --uri=/gen_rand_no.php --rate=150 --send-buffer=4096 --recv-buffer=16384 --num-conns=1100 --num-calls=2
+Maximum connect burst length: 1
+
+Total: connections 1021 requests 1316 replies 590 test-duration 164.708 s
+
+Connection rate: 6.2 conn/s (161.3 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 134739.0 avg 156115.4 max 164626.9 median 0.0 stddev 5944.0
+Connection time [ms]: connect 294.8
+Connection length [replies/conn]: 2.000
+
+Request rate: 8.0 req/s (125.2 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 3.3 max 25.2 stddev 5.0 (32 samples)
+Reply time [ms]: response 4168.2 transfer 75359.6
+Reply size [B]: header 205.0 content 1448367.0 footer 1.0 (total 1448573.0)
+Reply status: 1xx=0 2xx=590 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 1.48 system 163.13 (user 0.9% system 99.0% total 99.9%)
+Net I/O: 5068.4 KB/s (41.5*10^6 bps)
+
+Errors: total 805 client-timo 724 socket-timo 0 connrefused 0 connreset 2
+Errors: fd-unavail 79 addrunavail 0 ftab-full 0 other 0
+900
